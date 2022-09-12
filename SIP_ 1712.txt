@@ -1,0 +1,23 @@
+﻿SIP: 1712
+LAYER: Stackjoin
+TITLE: MINER INTEGRATION PROTOCOL
+AUTHOR: Psyduck
+STATUS: Draft
+TYPE: Compromise
+CREATED: 2022-09-12
+
+
+DEFINITIONS
+For the purpose of this SIP “Miner” is a reference to Bitcoin protocol level mining operations not STACKCHAIN aggregators that “mine” and “validate” blocks.
+
+
+ABSTRACT
+This SIP governs the inclusion of miners to the stackjoin layer and layouts a framework to manage it
+
+
+POSITION
+STACKCHAIN is for everyone, everyone should be free to participate. A participant's ability to contribute and that participant's method for contributing vary from person to person. Stackjoins allow for second layer settlement with more adaptable terms than smash buys at the tip. A protocol should be established that allows for miners to contribute the value of their fiat burned in support of STACKCHAIN while preserving the understanding that all participants at layer 1 must show proof of fiat burned to create BTC to create a block.
+
+
+PROPOSAL
+Miners wishing to build on STACKCHAIN should broadcast their intention in advance at the tip through a #MinerJoin. The dollar cost of the electricity spent from the time they broadcasted their intent until they would like to propose a block is the value they are allowed to claim in mining a new block, The BTC mined and sent to cold storage in that time should be allowed to be counted into the overall BTC pooled by stackchain. The miner has the option of committing the burned fiat value to the mempool or mining a block themselves by proposing receipts producing a clean tip. The miner can purchase additional BTC and provide that receipt or request a receipt from the community that produces a clean tip in a STACK JOIN. Nodes must be able to verify the dollar value of the electricity burned for the fiat to validate a block.
